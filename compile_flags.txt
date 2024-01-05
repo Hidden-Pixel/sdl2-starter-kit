@@ -1,0 +1,5 @@
+-L./libs/SDL.libs
+-L./libs/SDL2main.lib
+-L./libs/SDL2test.lib
+-I./include/
+-lfmt

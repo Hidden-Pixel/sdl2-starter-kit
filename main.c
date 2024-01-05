@@ -1,7 +1,7 @@
 #include "SDL.h"
 #include <stdio.h>
 
-int main()
+int main(int argc, char *argv[])
 {
 	SDL_Window *window;
 	SDL_Init(SDL_INIT_VIDEO);
@@ -19,7 +19,7 @@ int main()
 		return 1;
 	}
 
-	SDL_Delay(3000);
+    SDL_Delay(3000);
 	SDL_DestroyWindow(window);
 	SDL_Quit();
 
